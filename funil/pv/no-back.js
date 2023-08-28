@@ -12,7 +12,7 @@
                 b.location.hash = "#";
                 if (b.location.search == null || b.location.search == undefined || b.location.search ==
                     '') {
-                    b.location.href = "";
+                    b.location.href = "https://go.perfectpay.com.br/PPU38CN0MBO";
                 } else {
                     if (location.search.indexOf("src") > -1) {
                         var partes = location.search.slice(1).split('&');
@@ -28,9 +28,9 @@
                         new_search += JSON.stringify(data).replace(/[{}"]/g, "").replace(/[:]/g, "=")
                             .replace(/[,]/g, "&");
 
-                        b.location.href = " " + new_search;
+                        b.location.href = "https://go.perfectpay.com.br/PPU38CN0MBO" + new_search;
                     } else {
-                        b.location.href = " " + b.location.search + "&src=back_oferta";
+                        b.location.href = "https://go.perfectpay.com.br/PPU38CN0MBO" + b.location.search + "&src=back_oferta";
                     }
                 }
             }
@@ -70,9 +70,9 @@
                             new_search += JSON.stringify(data).replace(/[{}"]/g, "").replace(/[:]/g, "=")
                                 .replace(/[,]/g, "&");
 
-                            b.location.href = " " + new_search;
+                            b.location.href = "https://go.perfectpay.com.br/PPU38CN0MBO" + new_search;
                         } else {
-                            b.location.href = " " + b.location.search + "&src=back_oferta";
+                            b.location.href = "https://go.perfectpay.com.br/PPU38CN0MBO" + b.location.search + "&src=back_oferta";
                         }
                     }
                 }
